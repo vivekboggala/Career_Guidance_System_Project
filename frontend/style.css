@@ -1,0 +1,72 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Main Container Styling */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+/* Input Field Styling */
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    background: #0000ff; /* Bright blue */
+    color: #ffffff; /* White text for contrast */
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #3434ff; /* Slightly darker blue on hover */
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Career List Styling */
+#career-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 10px auto; /* Center align */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Career List Items */
+#career-list li {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Hide the Career Section Initially */
+#career-section {
+    display: none;
+}
