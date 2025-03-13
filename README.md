@@ -61,8 +61,6 @@ Career_Guidance_System_Project/
 - Add authentication system
 - Enhance UI/UX with better design
 
-
-📜 License
 ## 📜 License
 This project is open-source under the **MIT License**.  
 See the [LICENSE](./LICENSE) file for more details.  
